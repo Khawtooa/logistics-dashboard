@@ -34,7 +34,7 @@ st.markdown("""
 # 2. Load Data
 @st.cache_data
 def load_data():
-    file_path = "Delivery_Logistics_300rows_12cols.xlsx"
+    file_path = "Delivery_Logistics_300rows_12cols_v2"
     df = pd.read_excel(file_path)
     return df
 
